@@ -211,16 +211,16 @@ async def spam(e):
 
 
 
-@M1.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M2.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M3.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M4.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M5.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M6.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M7.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M8.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M9.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
-@M10.on(events.NewMessage(incoming=True, pattern=r"pythonx"))
+@M1.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M2.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M3.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M4.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M5.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M6.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M7.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M8.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M9.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
+@M10.on(events.NewMessage(incoming=True, pattern=r"Hacker"))
 async def oneword(e):
     if e.sender_id in MK_USERS:
         for Msg in OneWord:
